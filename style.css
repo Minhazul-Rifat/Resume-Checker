@@ -169,3 +169,11 @@ h2 {
     margin-top: 20px;
     padding-bottom: 20px;
 }
+
+div[data-testid="stToolbarActions"] {
+    display: flex;
+}
+
+div[data-testid="stToolbarActions"]>div:nth-child(4) {
+    display: none !important;
+}
