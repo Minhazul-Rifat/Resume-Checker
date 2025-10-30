@@ -5,3 +5,5 @@ backgroundColor="#0e1117" # প্রায় কালো ব্যাকগ�
 secondaryBackgroundColor="#262730" # ধূসর সেকেন্ডারি ব্যাকগ্রাউন্ড
 textColor="#FAFAFA" # সাদা টেক্সট
 font="sans serif"
+gatherUsageStats = false
+showToolbar = false
