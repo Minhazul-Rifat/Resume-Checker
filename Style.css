@@ -1,0 +1,171 @@
+.stApp {
+    background-color: #0e1117;
+    color: #FAFAFA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+}
+
+div[data-testid="stHeader"] {
+    display: none;
+}
+
+h1 {
+    color: #f63366;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #ffffff;
+    transform: scale(1.05);
+    text-shadow: 0 0 15px rgba(246, 51, 102, 0.8);
+}
+
+.subheader-text {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 1.2em;
+    margin-top: 2px !important;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+hr {
+    border-top: 2px solid #262730;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.input-label,
+.upload-label {
+    font-weight: 600;
+    color: #f63366;
+    font-size: 1.1em;
+    margin-bottom: 5px !important;
+}
+
+.upload-label {
+    text-align: center;
+    margin-top: 25px !important;
+    margin-bottom: 15px;
+}
+
+.stTextArea [data-baseweb="textarea"],
+.stFileUploader [data-baseweb="file-uploader"] {
+    background-color: #262730;
+    color: #FAFAFA;
+    border: 1px solid #4d4d4d;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+div[data-testid="stFileUploaderDropzone"] {
+    background-color: #262730;
+    border: 2px dashed #f63366;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+div[data-testid="stElementContainer"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+div.stButton {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 4px 0px !important;
+    display: flex;
+    justify-content: center;
+}
+
+div.stButton>button {
+    width: 100% !important;
+    border-radius: 25px;
+    padding: 12px 15px !important;
+    font-weight: 600;
+    background-color: #f63366;
+    color: white;
+    border: 1px solid #f63366;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div[data-testid="stVerticalBlock"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+[data-testid="stStatusWidget"]+div {
+    border-top: none !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    visibility: hidden !important;
+    height: 0px !important;
+}
+
+div.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.1);
+}
+
+div[data-testid="stStatusWidget"] {
+    background-color: #262730;
+    border: 2px solid #f63366;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    animation: pulse 1.5s infinite alternate;
+}
+
+[data-testid="stStatusWidget"]+div {
+    border-top: none !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    visibility: hidden !important;
+    height: 0px !important;
+}
+
+div[data-testid="stStatusWidget"] .st-bd {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #f63366;
+}
+
+@keyframes pulse {
+    0% {
+        border-color: #f63366;
+        box-shadow: 0 4px 10px rgba(246, 51, 102, 0.3);
+    }
+
+    100% {
+        border-color: #e02b5e;
+        box-shadow: 0 4px 20px rgba(246, 51, 102, 0.6);
+    }
+}
+
+h2 {
+    color: #FAFAFA;
+    font-weight: 600;
+}
+
+.result-heading-spacing {
+    margin-top: 25px !important;
+    display: block;
+}
+
+.built-with-text {
+    text-align: center;
+    font-size: 0.8em;
+    color: #888888;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

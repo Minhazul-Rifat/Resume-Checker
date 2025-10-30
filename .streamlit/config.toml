@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#f63366" # একটি উজ্জ্বল গোলাপী/লালচে রং
+backgroundColor="#0e1117" # প্রায় কালো ব্যাকগ্রাউন্ড
+secondaryBackgroundColor="#262730" # ধূসর সেকেন্ডারি ব্যাকগ্রাউন্ড
+textColor="#FAFAFA" # সাদা টেক্সট
+font="sans serif"
