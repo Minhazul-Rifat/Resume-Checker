@@ -171,9 +171,13 @@ h2 {
 }
 
 div[data-testid="stToolbarActions"] {
-    display: flex;
+    display: flex !important;
 }
 
+div[data-testid="stToolbarActions"]>div:nth-child(1),
+div[data-testid="stToolbarActions"]>div:nth-child(2),
+div[data-testid="stToolbarActions"]>div:nth-child(3),
 div[data-testid="stToolbarActions"]>div:nth-child(4) {
     display: none !important;
+    visibility: hidden !important;
 }
